@@ -1,0 +1,24 @@
+/geometry/source ../Pb.tg
+/run/initialize 
+
+/gps/particle ion
+/gps/ion 6 12
+/gps/energy 15525.75 eV
+/gps/pos/centre -50 0 0 cm
+/gps/ang/type iso
+/gps/ang/minphi 140 deg
+/gps/ang/maxphi 220 deg
+/gps/ang/mintheta 55 deg
+/gps/ang/maxtheta 125 deg
+
+/vis/open VRML2FILE
+/vis/drawVolume
+/vis/viewer/flush
+
+/vis/scene/add/trajectories
+/vis/scene/endOfEventAction accumulate 100000
+
+/analysis/setFileName gears.csv
+
+/run/verbose 2
+/run/beamOn 100000

@@ -1,0 +1,5 @@
+ 7486586.247000004 Total_E_absorbed 
+ 47513413.38999988 Total_E_remaining 
+ 10000 num_parts_remaining 
+ 0 num_parts_absorbed 
+ 0 num_parts_reflected 

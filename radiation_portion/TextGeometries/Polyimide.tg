@@ -1,0 +1,10 @@
+:volu world BOX 1*m 0.5*m 0.5*m G4_Galactic
+
+:MIXT_BY_NATOMS kapton 1.42E-3 4 C 22 H 10 N 2 O 5
+
+:volu foil(S) BOX 12.5*micrometer 49*cm 49*cm kapton
+:place foil(S) 1 world r000 0*cm 0*cm 0*cm
+:color foil(S) 1 1 0 
+
+:rotm r000 0 0 0
+:vis world FALSE
